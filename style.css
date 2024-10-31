@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    font-style: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 80px;
+}
+.container-fluid{
+    background-image: url(https://wallpapercave.com/wp/wp3203373.jpg);
+}
+.card
+{
+    border-radius: 30px;
+}
+.card-footer
+{text-align: center;
+background-color: aqua;
+}
+.nav-item{
+    font-size: 30px;
+}
+
+.main > div:hover{
+    opacity: 2;
+    transform: scale(0.95);
+}
+.content p{
+    line-height: 2;
+}
+.content p span,em{
+    color: red;
+    font-weight: bolder;
+}
